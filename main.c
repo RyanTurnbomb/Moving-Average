@@ -8,9 +8,6 @@
 
 #define N_AVG_SAMPLES 2
 
-/*
- * main.c
- */
 int main(void) {
     WDTCTL = WDTPW | WDTHOLD;	// Stop watchdog timer
 	
@@ -26,5 +23,5 @@ int main(void) {
 	     sleep(1);
 	}
 
-	    return 0;
+    return 0;
 }

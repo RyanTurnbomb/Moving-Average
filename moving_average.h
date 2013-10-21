@@ -17,6 +17,4 @@ int max(int array[], unsigned int arrayLength);
 int min(int array[], unsigned int arrayLength);
 unsigned int range(int array[], unsigned int arrayLength);
 
-
-
 #endif /* MOVING_AVERAGE_H_ */
